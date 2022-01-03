@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;    
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+}
+
+body {
+    background-color: #363636;
+    color: white;    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;         
+    
+}
+
+.user h1 {
+    margin-top: 10px;        
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #FED060;
+    margin: auto;
+    padding: auto;
+    width: 90%;    
+    font-family: 'Zen Antique', serif;   
+}
+
+
+img {
+    margin-top: 50px;
+    border-radius: 200px;
+    
+}
+
+.links {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-linkedin {    
+    background-color: #0A66C2;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.btn-linkedin:hover {
+    background-color: #363636;
+    color: white;
+    transition: .5s;        
+    border: solid 2px #0A66C2;
+}
+
+.btn-github {
+    background-color: #7a297a;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.btn-github:hover {
+    background-color: #363636;
+    color: white;
+    transition: .5s;
+    border: solid 2px #7a297a;
+}
+
+.btn-instagram{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;    
+}
+
+.btn-instagram:hover{
+    background-color: #363636;
+    color: white;
+    transition: .5s;
+    border: solid 2px #f09433;
+}
+
+.btn-twitter {
+    background-color: #009DED;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.btn-twitter:hover {
+    background-color: #363636;
+    color: white;
+    transition: .5s;
+    border: solid 2px #009DED;
+}
+
+
+.btn-curriculo {
+    background-color: #F09942;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.btn-curriculo:hover {
+    background-color: #363636;
+    color: white;
+    transition: .5s;
+    border: solid 2px #F09942;
+}
+
+.linkedin-img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.github-img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.instagram-img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.twitter-img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.curriculo-img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.playlist {
+    margin: 20px;    
+    border-radius: 20px;
+}
+
