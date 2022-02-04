@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'JetBrains Mono', monospace;  
 }
 
 a {
@@ -135,6 +135,21 @@ img {
     color: white;
     transition: .5s;
     border: solid 2px #F09942;
+}
+
+.btn-blog {
+    background-color: #2D0140;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.btn-blog:hover {
+    background-color: #363636;
+    color: white;
+    transition: .5s;
+    border: solid 2px #2D0140;
 }
 
 .linkedin-img {
